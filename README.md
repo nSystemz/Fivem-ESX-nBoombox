@@ -10,4 +10,6 @@ Homepage: https://nemesus.de
 
 Dependencies: https://github.com/Xogy/xsound
 
+Ihr wollt uns unterstützen? https://www.buymeacoffee.com/nemesustv
+
 Viel Spass mit dieser Ressource!
