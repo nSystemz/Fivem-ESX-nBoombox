@@ -13,10 +13,6 @@
 
 -- ONLY EDIT IF YOU KNOW WHAT YOU ARE DOING!
 
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
 RegisterNetEvent("boombox:soundStatus")
 AddEventHandler("boombox:soundStatus", function(type, musicId, data)
     TriggerClientEvent("boombox:soundStatus", -1, type, musicId, data)

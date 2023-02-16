@@ -15,7 +15,7 @@
 
 print("^0======================================================================^7")
 print("^0ESX_BOOMBOX loaded:")
-print("^0[^4Author^0] ^7:^0 ^0Nemesus | Version 1.0^7")
+print("^0[^4Author^0] ^7:^0 ^0Nemesus | Version 1.0.1^7")
 print("^0[^2Website^0] ^7:^0 ^5https://nemesus.de^7")
 print("^0[^2Youtube^0] ^7:^0 ^5https://youtube.nemesus.de^7")
 print("^0======================================================================^7")
@@ -23,7 +23,6 @@ print("^0======================================================================^
 -- ONLY EDIT IF YOU KNOW WHAT YOU ARE DOING!
 
 -- Local variables
-ESX = nil
 xSound = exports.xsound
 local objectBoomboxCreated = nil
 local PlayerData = {}
@@ -31,11 +30,6 @@ local playerVolume = 20
 local IsMenuOpen = false
 
 Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-
 	ESX.PlayerData = ESX.GetPlayerData()
 end)
 
