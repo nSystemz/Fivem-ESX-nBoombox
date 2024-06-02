@@ -1,4 +1,4 @@
-FiveM ESX nBoombox System
+🎮 FiveM ESX nBoombox System 🎮
 
 Diese Ressource fügt dem ESX Framework für FiveM, eine kaufbare Boombox hinzu, womit man ingame Musik hören kann (z.B Youtube)
 
@@ -12,6 +12,6 @@ Homepage: https://nemesus.de
 
 Dependencies: https://github.com/Xogy/xsound
 
-Ihr wollt uns unterstützen? https://ko-fi.com/nemesustv
+☕ Ihr wollt uns unterstützen? https://ko-fi.com/nemesustv ☕
 
 Viel Spass mit dieser Ressource!
